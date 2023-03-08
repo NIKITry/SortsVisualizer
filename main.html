@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sort Visualization</title>
+
+</head>
+<body>
+
+	<style>
+
+		.canvas {
+		display: block;
+		margin: 0 auto;
+		}
+
+		.SS {
+		margin-left:270px;
+		}
+
+		.clear {
+		margin-left:20px;
+		}
+
+		.newArray {
+		margin-left:20px;	
+		}
+
+		.Sort {
+		margin-left:20px;
+		}
+
+
+
+	</style>
+
+
+	<select id = "selectSort" name = "selectSort" class="SS">
+        <option value = "selectionSort" id="selectionSort">Selection sort</option>
+        <option value = "bubbleSort" id="bubbleSort" >Bubble sort</option> 
+    </select>
+
+    <input type="button" id="clear" class="clear" value="clear">
+    <input type="button" id="newArray" class="newArray" value="New Array">
+    <input type="button" id="Sort" class="Sort" value="Sort">
+    <canvas class="canvas" id="canvas" width="550" height="550" style="border:#000000 dashed 3px;">
+
+
+	<script src="sorts.js"></script>
+	<script src="sortsVisualizing.js"></script>
+	
+
+	
+
+</body>
+</html>
